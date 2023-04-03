@@ -1,3 +1,5 @@
 # curso-em-video
  
-<a href="https://kauefelau.github.io/curso-em-video/exercicios/010-sites_internos/index.html">Executar o exercicio 10</a>
+ola
+
+<a href="https://kauefelau.github.io/curso-em-video/desafios/010-pt2/projeto/index.html"> Executar o desafio 10 </a>
