@@ -9,18 +9,26 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(img/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center top;
+            background-attachment: fixed;*/
+
+            /*Shorthand background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background:  black url(img/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
             width: 400px;
             padding: 10px;
-            margin: auto;
+            margin: 30px auto;
             border: 1px solid darkblue;
             border-radius: 15px;
         }
