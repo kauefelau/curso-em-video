@@ -63,11 +63,11 @@ section.normal {
 
 section.imagem > p {
     display: inline-block;
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.434);
 }
 
 section.imagem {
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(27, 27, 27);
     color: white;
 }
 
