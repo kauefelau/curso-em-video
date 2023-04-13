@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #caixa1 {
+            width: 36%;
+            height: 200px;
+            background: #f62929;
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            color: #fff;
+            text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.372);
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa1">
+        <div id="titulo">
+            <h1>Ola mundo!</h1>
+        </div>
+    </div>
+</body>
+</html>
