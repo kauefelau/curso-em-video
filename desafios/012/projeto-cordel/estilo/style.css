@@ -34,3 +34,33 @@ header a, footer a {
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem > p {
+    background-color: black;
+    width: 400px;
+}
+
+section.imagem {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
