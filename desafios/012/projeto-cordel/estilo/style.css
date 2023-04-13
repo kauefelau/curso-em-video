@@ -64,13 +64,26 @@ section.normal {
 section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.434);
+    text-shadow: 1.5px 1.5px 0px black;
+    
 }
 
 section.imagem {
+    background-attachment: fixed;
     background-color: rgb(27, 27, 27);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.413);
 }
 
+section#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+}
+
+section#img2 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+}
 
 footer {
     background-color: black;
