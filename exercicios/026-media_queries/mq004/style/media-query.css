@@ -7,6 +7,7 @@
         font-family: 'Courier New', Courier, monospace;
         /*background-image: url(../img/back-print.jpg);*/
     }
+
     img#phone {
         display: none;
     }
@@ -36,7 +37,7 @@
         content: 'Essa impressao foi feita por kekesimjo';
         text-decoration: overline;
     }
-    
+
     main h1 {
         text-shadow: none;
         color: black;
@@ -73,6 +74,7 @@
     body {
         background-image: url(../img/back-pc.jpg);
     }
+
     img#phone {
         display: none;
     }
@@ -98,6 +100,7 @@
     body {
         background-image: url(../img/back-tv.jpg);
     }
+
     img#phone {
         display: none;
     }
